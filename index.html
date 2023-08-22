@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
+    <!-- NOTE: we can either put the js script in the head tag 
+    and use defer, to wait for the HTML and CSS to be loaded first
+    OR, we can put the js script at the bottom of the body tag
+    and since the browser parses HTML from top to bottom, this will 
+    work as well -->
+    <script src="./index.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     <h1>HELLO WORLD</h1>
     <button id="hide-btn">hide the h1 element</button>
     <button id="unhide-btn">unhide the h1 element</button>
-    <script src="./index.js"></script>
 </body>
 </html>
