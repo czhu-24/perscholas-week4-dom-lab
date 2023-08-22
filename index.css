@@ -1,0 +1,11 @@
+h1 {
+    color: white;
+    background-color: black;
+}
+
+/* #13 */
+#hide-btn, #unhide-btn{
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
